@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-09-20T11:53:21.653Z",
+  "duration": 26621,
+  "file": "cypress\\integration\\rubicscube\\TC5WebTableCopy.js"
+}

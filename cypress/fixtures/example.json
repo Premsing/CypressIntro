@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Checkout with iphone X and Nokia",
+    "productsToAdd": [
+      "iphone X",
+      "Nokia"
+    ],
+    "expectedText": "Success!"
+  }
+]

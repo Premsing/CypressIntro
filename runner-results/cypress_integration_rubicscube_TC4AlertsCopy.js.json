@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-09-20T11:53:54.763Z",
+  "duration": 22081,
+  "file": "cypress\\integration\\rubicscube\\TC4AlertsCopy.js"
+}
