@@ -14,6 +14,7 @@
   "author": "Prem",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "cypress": "^12.17.3",
     "cypress-mochawesome-reporter": "^3.5.1"
   },

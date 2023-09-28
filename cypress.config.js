@@ -48,8 +48,7 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     }, 
     setupNodeEvents,
-    specPattern: 'cypress/integration/examples/*.js',
-    specPattern: 'cypress/integration/rubicscube/*.js',
-    specPattern: 'cypress/integration/examples/BDD/*.feature'
+    specPattern: 'cypress/integration/examples/*.js'
+    
   }, 
 });
