@@ -1,8 +1,17 @@
-name: hello-world
+name: Cypress Tests
+
 on: push
+
 jobs:
-  my-job:
-    runs-on: ubuntu-latest
+  cypress-run:
+    runs-on: ubuntu-22.04
     steps:
-      - name: my-step
-        run: npx cypress run --spec "cypress\integration\examples\homeSauceFixture.js"
+      - name: Checkout
+        uses: actions/checkout@v4
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          build: npm run build
+          start: npm start
